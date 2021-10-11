@@ -1,0 +1,73 @@
+.Section6 {
+  max-width: 100%;
+  height: auto;
+  background-color: rgb(229, 231, 239);
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+.s6h1 {
+  padding: 70px;
+}
+.contentBox {
+  background-color: white;
+  width: 800px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.Section6H1 {
+  padding: 20px 40px 32px 16px;
+  font-weight: 500;
+}
+.section6Content {
+  color: #8b8ca5;
+  padding: 0 40px 32px 16px;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: -30px;
+}
+.S6contentRes {
+  display: none !important;
+}
+.S6contentResData {
+  padding: 5px;
+}
+.S6btn {
+  line-height: 21px;
+  background-color: black;
+  padding: 15px 17px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  margin-top: 0px;
+  margin-left: 10px !important;
+  font-size: 17px;
+  cursor: pointer;
+}
+.S6subData {
+  text-align: center;
+}
+
+.S6subH1 {
+  font-size: 3em;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.S6subP {
+  margin-top: -10px;
+  font-size: 20px;
+}
+.S6btnDIV {
+  padding: 60px;
+}
+
+@media screen and (max-width: 950px) {
+  .S6Content {
+    display: none;
+  }
+  .S6contentRes {
+    display: block !important;
+  }
+}

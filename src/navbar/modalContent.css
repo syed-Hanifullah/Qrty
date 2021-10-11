@@ -1,0 +1,63 @@
+.modalContent {
+  overflow: auto;
+}
+.modalContentCross {
+  float: right;
+  cursor: pointer;
+}
+
+.RegisterBtnModal {
+  line-height: 21px;
+  background-color: black;
+  padding: 9px 12px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  width: 300px !important;
+  margin-top: 0px;
+  margin-left: 10px !important;
+  font-size: 17px;
+  cursor: pointer;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid darkgray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.2s ease-in-out;
+}
+input:focus {
+  border: 3px solid #759dfe !important;
+}
+.checkboxModal {
+  margin-left: 14px;
+}
+.formDiv {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.loginP {
+  font-size: 12px;
+}
+.container {
+  color: rgb(139, 140, 165);
+  font-size: 12px;
+  text-align: justify;
+  margin-left: 12px;
+}
+.formInput {
+  padding: 15px;
+}
+
+.loginP {
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+  text-align: center;
+}

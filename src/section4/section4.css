@@ -1,0 +1,126 @@
+.Section4 {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  background-color: rgb(229, 231, 239);
+  margin-top: 60px;
+  height: 130vh;
+}
+.Section4H1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.Container1i {
+  display: flex;
+  padding: 15px;
+}
+.parentS4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 40px;
+}
+
+.div2S4 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.div2S4 {
+  grid-area: 1 / 2 / 3 / 3;
+  text-align: center;
+}
+.Container1S4 {
+  width: 400px;
+  background-color: #f3f5fe;
+  height: 400px !important;
+  border-radius: 5px;
+}
+
+.Container2S4 {
+  width: 300px;
+  background-color: #fff;
+  height: 400px !important;
+  border-radius: 5px;
+  margin-left: -30px;
+  margin-top: -50px;
+  padding: 60px;
+  border: 2.5px solid #cdd1e0;
+}
+.div2S4:after {
+  width: 160px;
+  bottom: -2.5px;
+  height: 4px;
+  content: "";
+  display: inline-block;
+  z-index: 3;
+  position: absolute;
+  background-color: #759dfe;
+}
+
+.RegisterBtnS4 {
+  line-height: 21px;
+  background-color: black;
+  padding: 9px 12px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  width: 200px !important;
+  margin-top: 0px;
+  margin-left: 10px !important;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.Container2S4Img {
+  width: 40%;
+  height: 30%;
+}
+.Container2S4P1 {
+  font-size: 15px;
+  color: #5a5b70;
+}
+.Container2S4H3 {
+  font-size: 32px;
+}
+.Container2S4P2 {
+  font-size: 15px;
+  color: #5a5b70;
+}
+.S4Btn {
+  padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .Section4 {
+    height: auto !important;
+  }
+  .parentS4 {
+    display: block;
+    text-align: center;
+  }
+  .div1S4 {
+    display: block !important;
+  }
+  .div2S4 {
+    display: block !important;
+  }
+  .Container1S4 {
+    margin-left: 25px;
+    width: 300px;
+  }
+  .Container2S4 {
+    margin-left: -2px;
+    width: 250px;
+  }
+}

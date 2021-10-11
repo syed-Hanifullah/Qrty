@@ -1,0 +1,110 @@
+.Section1 {
+  padding: 20px;
+}
+
+.Section1H1 {
+  font-size: 45px;
+  line-height: 50px;
+  color: rgb(0, 0, 0);
+  max-width: none;
+  text-align: left;
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+.Section1P {
+  font-size: 18px;
+  max-width: none;
+  line-height: 26px;
+  margin-bottom: 25px;
+  color: rgb(90, 91, 112);
+}
+.Section1BTN {
+  background-color: black;
+  padding: 18px 18px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  width: 295px;
+  margin-top: 0px;
+  margin-left: 10px !important;
+  font-size: 19px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 500;
+  transition: 0.1s ease-in-out;
+}
+.Section1BTN:hover {
+  background-color: #292929;
+}
+
+.Section1BTNArrow {
+  float: right;
+}
+.Section1img {
+  float: right;
+  max-width: 100%;
+  width: 55%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .Section1H1 {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .Section1img {
+    display: none;
+  }
+  .Section1imgRes {
+    display: block !important;
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 959.95px) {
+  .Section1BTN {
+    min-width: 112px;
+  }
+}
+
+.Section1imgRes {
+  display: none;
+}
+
+.sectionSub {
+  padding: 20px;
+  width: calc(100% - 60px);
+  display: flex;
+  max-width: 1070px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+}
+@media screen and (max-width: 750px) {
+  .sectionSub {
+    display: block;
+  }
+  .sectionSubImgText {
+    padding: 10px;
+  }
+  .sectionSubImg {
+    width: 15% !important;
+  }
+}
+
+.sectionSubImg {
+  width: 25%;
+}
+.sectionSubImgText {
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionSubText {
+  font-weight: 500;
+  margin-top: 20px;
+  padding: 10px;
+}
